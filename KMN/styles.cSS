@@ -1,0 +1,95 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+.game{
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    margin-top: 250px;
+    align-items: center;
+    padding: 5px;
+    width: 600px;
+    justify-content: center;
+}
+.main_container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blueviolet;
+    border: 2px solid rgb(177, 73, 246);
+    border-radius: 10px;
+}
+.field_container{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.field{
+    border: 2px solid rgb(177, 73, 246);
+    border-radius: 10px;
+    width: 50%;
+    height: 300px;
+    margin: 5px;
+    padding: 5px;
+    background-color: white;
+}
+.score_container>p.text{
+    width: 50%;
+    text-align: center;
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.score_container{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.card{
+    border: 2px solid rgb(242, 144, 59);
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    background-color: rgb(194, 190, 190);
+    padding: 5px;
+}
+
+#result{
+    height: 20px;
+}
+#result>p.text{
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+}
+#stone{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+#paper{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+#scissors{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+#reload{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}

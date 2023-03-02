@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.cSS">
+    <title>Yes KMN?</title>
+</head>
+<body>
+    <div class="game">
+        <p id="result" style="width: 100%;justify-content: center;"></p>
+        <div class="main_container">
+            <div class="field_container">
+                <div class="field" id="left"></div>
+                <div class="field" id="right"></div>
+            </div>
+            <div class="score_container">
+                <p class="text" id="player">Игрок: 0</p>
+                <p class="text" id="bot">Бот: 0</p>
+
+            </div>
+        </div>
+        <div class="card">
+            <img onclick="mini_game(this.id)" id="stone" src="img/каминь.png" alt="">
+        </div>
+        <div class="card">
+            <img onclick="mini_game(this.id)" id="paper" src="img/ледигага.png" alt="">
+        </div>
+        <div class="card">
+            <img onclick="mini_game(this.id)" id="scissors" src="img/ножницы.png" alt="">
+        </div>
+        <div class="card" style="display: none;" >
+            <img onclick="reload()" id="reload" src="img/перезапуск.png" alt="">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
