@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="game">
+        <header>
+            <div class ="shop">
+                <p>Магазин</p>
+                <img src="img/pokemon-go.png" alt="" id = "shop" onclick="open_store()">
+            </div>
+            <div id="wave"></div>
+            <div id="money"></div>
+        </header>
+        <div class="main">
+            <div id="boss">
+                <img src="img/dratini.png" alt=""></img>
+            </div>
+            <div id="hp">
+                <div class="hp center"></div>
+            </div>
+            <div class="hp num"></div>
+            <div id="attack">
+                <img src="img/battle.png" onclick="battle()" alt="" id="next">
+            </div>
+        </div>
+    </div>
+    <div id="store">
+        <header>
+            <div id="money"></div>
+            <div class="name">
+                Магазин
+            </div>
+            <div class="close">
+                <button id="close" onclick="close_store()">Close</button>
+            </div>
+        </header>
+        <div class="items">
+            <div class="card">
+                <div class="prewiew" style="background-image: url(img/pokeball.png);"></div>
+                <div class="description">
+                    <p class="text">
+                        Покеболл:
+                    </p>
+                    <p class="text">
+                        +10 dmg
+                    </p>
+                    <p class="text col-vo"></p>
+                </div>
+                <div class="cost">
+                    <p class="text">
+                        Цена:
+                    </p>
+                    <p class="text">
+                        10
+                        <img src="img/money-bag.png" alt="" style = "width:40px;height:40px"></img>
+                    </p>
+                </div>
+                <div class="buy"> 
+                    <button id="1" onclick="buy_item(this.id)">Купить</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="prewiew" style="background-image: url(img/superball.png);"></div>
+                <div class="description">
+                    <p class="text">
+                        Грейтболл:
+                    </p>
+                    <p class="text">
+                        +100 dmg
+                    </p>
+                    <p class="text col-vo"></p>
+                </div>
+                <div class="cost">
+                    <p class="text">
+                        Цена:
+                    </p>
+                    <p class="text">
+                        100
+                        <img src="img/money-bag.png" alt="" style = "width:40px;height:40px"></img>
+                    </p>
+                </div>
+                <div class="buy">
+                    <button id="2" onclick="buy_item(this.id)">Купить</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="prewiew" style="background-image: url(img/ultra-ball.png);"></div>
+                <div class="description">
+                    <p class="text">
+                        Ультраболл:
+                    </p>
+                    <p class="text">
+                        +1000 dmg
+                    </p>
+                    <p class="text col-vo"></p>
+                </div>
+                <div class="cost">
+                    <p class="text">
+                        Цена:
+                    </p>
+                    <p class="text">
+                        1000
+                        <img src="img/money-bag.png" alt="" style = "width:40px;height:40px"></img>
+                    </p>
+                </div>
+                <div class="buy">
+                    <button id="3" onclick="buy_item(this.id)">Купить</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="prewiew" style="background-image: url(img/mega-ball.png);"></div>
+                <div class="description">
+                    <p class="text">
+                        Мастерболл:
+                    </p>
+                    <p class="text">
+                        +10000 dmg
+                    </p>
+                    <p class="text col-vo"></p>
+                </div>
+                <div class="cost">
+                    <p class="text">
+                        Цена:
+                    </p>
+                    <p class="text">
+                        10000
+                        <img src="img/money-bag.png" alt="" style = "width:40px;height:40px"></img>
+                    </p>
+                </div>
+                <div class="buy">
+                    <button id="4" onclick="buy_item(this.id)">Купить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
