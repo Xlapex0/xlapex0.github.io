@@ -1,4 +1,4 @@
 # xlapex0.github.io projects(html)
-#CkicerBoss
+#ClikerBoss
 #KMN
 #Calculation
