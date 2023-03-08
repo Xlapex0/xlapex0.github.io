@@ -2,3 +2,4 @@
 #ClikerBoss
 #KMN
 #Calculation
+#SlotMashine
