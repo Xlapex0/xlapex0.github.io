@@ -38,6 +38,10 @@ function Click(e) {
             Name.textContent = "Ты выиграл";
             Btn_reload.style.display = "block";
         }
+        if (overload && !man_win && !bot_win) {
+            Name.textContent = "Ничья";
+            Btn_reload.style.display = "block";
+        }
         numbers = "";
         overload = false;
     }
