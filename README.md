@@ -3,3 +3,6 @@
 #KMN
 #Calculation
 #SlotMashine
+#Console
+#Scroll
+#XOXO
