@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+#inscription{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
